@@ -193,17 +193,17 @@ Ini LaTeX:
 Builder ini dilengkapi dengan proteksi *state* internal untuk menghindari salah urutan eksekusi:
 
 1. **Memanggil method sebelum menentukan tipe:**
-   ```javascript
-   messageBuilder(jid).setTitle('Halo'); 
-   // Error: Kamu harus memanggil .setType() sebelum memanggil .setTitle()
-   ```
+```javascript
+messageBuilder(jid).setTitle('Halo'); 
+// Error: Kamu harus memanggil .setType() sebelum memanggil .setTitle()
+```
 2. **Langsung mengirim tanpa menentukan tipe:**
-   ```javascript
-   messageBuilder(jid).send(); 
-   // Error: Kamu harus menentukan .setType() terlebih dahulu.
-   ```
+```javascript
+messageBuilder(jid).send(); 
+// Error: Kamu harus menentukan .setType() terlebih dahulu.
+```
 3. **Memasukkan tipe yang tidak terdaftar:**
-   ```javascript
-   messageBuilder(jid).setType('Koran'); 
-   // Error: Type Koran tidak dikenali.
-   ```
+```javascript
+messageBuilder(jid).setType('Koran'); 
+// Error: Type Koran tidak dikenali.
+```
