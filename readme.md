@@ -1,14 +1,14 @@
 # Message Builder Helper
 
-**Special thanks to [Nixel](https://wa.me/6282139672290)**. The original owner of this message builder
-
-Sebuah helper berbasis **Dynamic Proxy** untuk mempermudah pembuatan dan pengiriman berbagai jenis pesan interaktif (Rich Messages) pada bot WhatsApp (seperti Baileys/Socket). 
-
-Helper ini mendukung *method chaining* (pemanggilan berantai) dan secara otomatis mengarahkan fungsi ke *instance* yang sesuai berdasarkan tipe yang ditentukan.
+**Thanks to [ValdazGT](https://gist.github.com/ValdazGT) or [Nixel](https://wa.me/6282139672290)**. The original owner of this message builder
 
 ---
 
 ## 📌 Cara Kerja & Arsitektur
+
+Sebuah helper berbasis **Dynamic Proxy** untuk mempermudah pembuatan dan pengiriman berbagai jenis pesan interaktif (Rich Messages) pada bot WhatsApp (seperti Baileys/Socket). 
+
+Helper ini mendukung *method chaining* (pemanggilan berantai) dan secara otomatis mengarahkan fungsi ke *instance* yang sesuai berdasarkan tipe yang ditentukan.
 
 `messageBuilder` memanfaatkan JavaScript `Proxy` untuk menangkap setiap properti atau *method* yang dipanggil. 
 
@@ -20,7 +20,7 @@ Helper ini mendukung *method chaining* (pemanggilan berantai) dan secara otomati
 
 ## 🛠️ API Penjelasan Fungsi
 
-### `messageBuilder(jid, options)`
+### `sock.messageBuilder(jid, options)`
 Fungsi utama untuk menginisialisasi builder.
 * `jid` *(String)*: ID Obrolan tujuan (misal: `m.chat` atau `remoteJid`).
 * `options` *(Object, Opsional)*: Konfigurasi tambahan untuk pengiriman pesan (misal: `{ quoted: m }`).
@@ -28,7 +28,9 @@ Fungsi utama untuk menginisialisasi builder.
 ### Inisiasi
 Inisiasi semua fungsi atau class dari library
 ```javascript
-import { Button, ButtonV2, Carousel, AIRich } from "@ryuu-reinzz/haruka-lib"
+import haruka, { addProperty, Button, ButtonV2, Carousel, AIRich } from "@ryuu-reinzz/haruka-lib
+const sock = makeSocket({});
+addProperty(sock, store);
 ```
 
 ### Method Bawaan Builder
@@ -47,7 +49,7 @@ Berikut adalah cara menggunakan `messageBuilder` wraper:
 
 ### 1. Membuat Pesan Interaktif (`Button`)
 ```javascript
-await messageBuilder(m.chat, { quoted: m })
+await sock.messageBuilder(m.chat, { quoted: m })
     .setType('Button')
     .setTitle('🚀 Ryuu')
     .setSubtitle('Interactive Message')
@@ -67,7 +69,7 @@ await messageBuilder(m.chat, { quoted: m })
 
 ### 2. Membuat Pesan Tombol (`ButtonV2`)
 ```javascript
-await messageBuilder(m.chat)
+await sock.messageBuilder(m.chat)
     .setType('ButtonV2')
     .setTitle('🚀 Ryuu')
     .setSubtitle('Buttons Message')
@@ -81,7 +83,7 @@ await messageBuilder(m.chat)
 
 ### 3. Membuat Pesan Geser (`Carousel`)
 ```javascript
-await messageBuilder(m.chat, { quoted: m })
+await sock.messageBuilder(m.chat, { quoted: m })
     .setType('Carousel')
     .setBody('🛍️ Product List')
     .setFooter('Swipe untuk lihat')
@@ -108,7 +110,7 @@ await messageBuilder(m.chat, { quoted: m })
 
 ### 4. Membuat Pesan Kaya Fitur AI (`AIRich`)
 ```javascript
-await messageBuilder(m.chat, { quoted: m })
+await sock.messageBuilder(m.chat, { quoted: m })
     .setType('AIRich')
     .setTitle('🚀 Ryuu')
     .setFooter('© Haruka')   
@@ -155,15 +157,15 @@ Ini LaTeX:
         ['Haruka', 'Assistant']
     ])
     .addSource([
-        ['https://api.ryuu-dev.offc.my.id/src/assest/mahiru/Mahiru-9.jpg', 'https://github.com/reinzz556/', 'GitHub'],
-        ['https://api.ryuu-dev.offc.my.id/src/assest/mahiru/Mahiru-9.jpg', 'https://api.ryuu-dev.my.id/', 'Haruka Botz']
+        ['https://api.ryuu-dev.offc.my.id/src/assest/mahiru/Mahiru-09.jpg', 'https://github.com/reinzz556/', 'GitHub'],
+        ['https://api.ryuu-dev.offc.my.id/src/assest/mahiru/Mahiru-09.jpg', 'https://api.ryuu-dev.my.id/', 'Haruka Botz']
     ])
-    .addImage('https://api.ryuu-dev.offc.my.id/src/assest/mahiru/Mahiru-7.jpg')
+    .addImage('https://api.ryuu-dev.offc.my.id/src/assest/mahiru/Mahiru-07.jpg')
     .addVideo("https://api.ryuu-dev.my.id/2026-06-01-064748592.mp4|10")
     .addReels(Array(5).fill({
         username: 'Ryuu',
         profile_url: 'https://api.ryuu-dev.my.id/icon.png',
-        thumbnail: 'https://api.ryuu-dev.offc.my.id/src/assest/mahiru/Mahiru-8.jpg',
+        thumbnail: 'https://api.ryuu-dev.offc.my.id/src/assest/mahiru/Mahiru-08.jpg',
         url: 'https://api.ryuu-dev.my.id/',
         title: 'Demo Reel',
         like: 12000,
@@ -180,7 +182,7 @@ Ini LaTeX:
         caption: 'hii~ im haruka, just quietly observing things around here.',
         verified: true,
         url: 'https://api.ryuu-dev.my.id/',
-        thumbnail: 'https://api.ryuu-dev.offc.my.id/src/assest/mahiru/Mahiru-7.jpg',
+        thumbnail: 'https://api.ryuu-dev.offc.my.id/src/assest/mahiru/Mahiru-07.jpg',
         source: 'INSTAGRAM',
         footer: 'Haruka',
         deeplink: 'https://api.ryuu-dev.my.id/',
@@ -202,16 +204,16 @@ Builder ini dilengkapi dengan proteksi *state* internal untuk menghindari salah 
 
 1. **Memanggil method sebelum menentukan tipe:**
 ```javascript
-messageBuilder(jid).setTitle('Halo'); 
+sock.messageBuilder(jid).setTitle('Halo'); 
 // Error: Kamu harus memanggil .setType() sebelum memanggil .setTitle()
 ```
 2. **Langsung mengirim tanpa menentukan tipe:**
 ```javascript
-messageBuilder(jid).send(); 
+sock.messageBuilder(jid).send(); 
 // Error: Kamu harus menentukan .setType() terlebih dahulu.
 ```
 3. **Memasukkan tipe yang tidak terdaftar:**
 ```javascript
-messageBuilder(jid).setType('Koran'); 
+sock.messageBuilder(jid).setType('Koran'); 
 // Error: Type Koran tidak dikenali.
 ```
