@@ -1,5 +1,8 @@
 # Message Builder Helper
 
+**Special thanks to [Nixel](https://wa.me/6282139672290)**
+The original owner of this message builder
+
 Sebuah helper berbasis **Dynamic Proxy** untuk mempermudah pembuatan dan pengiriman berbagai jenis pesan interaktif (Rich Messages) pada bot WhatsApp (seperti Baileys/Socket). 
 
 Helper ini mendukung *method chaining* (pemanggilan berantai) dan secara otomatis mengarahkan fungsi ke *instance* yang sesuai berdasarkan tipe yang ditentukan.
@@ -23,6 +26,12 @@ Fungsi utama untuk menginisialisasi builder.
 * `jid` *(String)*: ID Obrolan tujuan (misal: `m.chat` atau `remoteJid`).
 * `options` *(Object, Opsional)*: Konfigurasi tambahan untuk pengiriman pesan (misal: `{ quoted: m }`).
 
+### Inisiasi
+Inisiasi semua fungsi atau class dari library
+``` javascript
+import { Button, ButtonV2, Carousel, AIRich } from "@ryuu-reinzz/haruka-lib"
+```
+
 ### Method Bawaan Builder
 * **.setType(type)**
     Mengatur jenis komponen pesan yang akan dibuat.
@@ -35,7 +44,7 @@ Fungsi utama untuk menginisialisasi builder.
 
 ## 🚀 Panduan Penggunaan (Contoh Implementasi)
 
-Berikut adalah cara menggunakan `messageBuilder` untuk menggantikan inisialisasi *class* manual:
+Berikut adalah cara menggunakan `messageBuilder` wraper:
 
 ### 1. Membuat Pesan Interaktif (`Button`)
 ```javascript
@@ -82,7 +91,7 @@ await messageBuilder(m.chat, { quoted: m })
             .setTitle('🍔 Burger')
             .setBody('Burger terenak')
             .setFooter('$5')
-            .setImage('https://cdn.ornzora.eu.cc/36df8c36-c74e-4dc2-bc03-87893f373cb4-FIORA.jpg')
+            .setImage('https://api.ryuu-dev.offc.my.id/src/assest/mahiru/Mahiru-11.jpg')
             .addReply('🛒 Buy', '.buy burger')
             .toCard()
     )
@@ -91,7 +100,7 @@ await messageBuilder(m.chat, { quoted: m })
             .setTitle('🍕 Pizza')
             .setBody('Pizza mozzarella')
             .setFooter('$7')
-            .setImage('https://cdn.ornzora.eu.cc/36df8c36-c74e-4dc2-bc03-87893f373cb4-FIORA.jpg')
+            .setImage('https://api.ryuu-dev.offc.my.id/src/assest/mahiru/Mahiru-11.jpg')
             .addReply('🛒 Buy', '.buy pizza')
             .toCard()
     )
@@ -103,8 +112,8 @@ await messageBuilder(m.chat, { quoted: m })
 await messageBuilder(m.chat, { quoted: m })
     .setType('AIRich')
     .setTitle('🚀 Ryuu')
-    .setFooter('© Fiora Sylvie')   
-    .addSuggest(['Ryuu', 'Ryuu', 'Fiora Sylvie'])    
+    .setFooter('© Haruka')   
+    .addSuggest(['Ryuu', 'Ryuu', 'Haruka'])    
     .addTip('Ini adalah text tip (Metadata Text)')
     .addText(`# Halo Dunia
 =={ Yellow Text }==
@@ -124,7 +133,7 @@ Ini LaTeX:
         sale_price: 'Rp 0',
         product_url: 'https://wa.me/6288246552068', 
         icon_url: "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/additional_image_1.png",
-        image_url: 'https://cdn.ornzora.eu.cc/152f4f0b-02fb-4d60-aacc-fc4cfa87ccdb-FIORA.jpg'
+        image_url: 'https://api.ryuu-dev.offc.my.id/src/assest/mahiru/Mahiru-10.jpg'
     })
     .addCode('javascript', `class Ryuu {
 	static hello() {
@@ -137,25 +146,25 @@ Ini LaTeX:
 		brand: 'Ryuu', 
 		price: 'Rp 1000', 
 		sale_price: 'Rp 0', 
-		url: 'https://wa.me/6282139672290', 
+		url: 'https://wa.me/6288246552068', 
 		icon: "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/additional_image_1.png", 
-		image: "https://cdn.ornzora.eu.cc/152f4f0b-02fb-4d60-aacc-fc4cfa87ccdb-FIORA.jpg"
+		image: "https://api.ryuu-dev.offc.my.id/src/assest/mahiru/Mahiru-10.jpg"
 	}))
     .addTable([
         ['Nama', 'Role'],
         ['Ryuu', 'Developer'],
-        ['Fiora Sylvie', 'Assistant']
+        ['Haruka', 'Assistant']
     ])
     .addSource([
-        ['https://cdn.ornzora.eu.cc/dc85c945-96f7-4d50-aaa4-1dff7249aaf4-FIORA.jpg', 'https://github.com/reinzz556/', 'GitHub'],
-        ['https://cdn.ornzora.eu.cc/dc85c945-96f7-4d50-aaa4-1dff7249aaf4-FIORA.jpg', 'https://api.ryuu-dev.my.id/', 'Haruka Botz']
+        ['https://api.ryuu-dev.offc.my.id/src/assest/mahiru/Mahiru-9.jpg', 'https://github.com/reinzz556/', 'GitHub'],
+        ['https://api.ryuu-dev.offc.my.id/src/assest/mahiru/Mahiru-9.jpg', 'https://api.ryuu-dev.my.id/', 'Haruka Botz']
     ])
-    .addImage('https://cdn.ornzora.eu.cc/d987ff9c-c16c-4f1e-a8d6-953e375f4aec-FIORA.jpg')
-    .addVideo("https://cdn.ornzora.eu.cc/a1a3124d-533a-490d-8b56-517b8dccffb1-FIORA.mp4|10")
+    .addImage('https://api.ryuu-dev.offc.my.id/src/assest/mahiru/Mahiru-7.jpg')
+    .addVideo("https://api.ryuu-dev.my.id/2026-06-01-064748592.mp4|10")
     .addReels(Array(5).fill({
         username: 'Ryuu',
-        profile_url: 'https://cdn.ornzora.eu.cc/4d2905ce-3707-4ec0-998a-68a3d851629f-FIORA.jpg',
-        thumbnail: 'https://cdn.ornzora.eu.cc/d6b36500-3b7e-49ee-9123-52bb1bf106be-FIORA.jpg',
+        profile_url: 'https://api.ryuu-dev.my.id/icon.png',
+        thumbnail: 'https://api.ryuu-dev.offc.my.id/src/assest/mahiru/Mahiru-8.jpg',
         url: 'https://api.ryuu-dev.my.id/',
         title: 'Demo Reel',
         like: 12000,
@@ -165,18 +174,18 @@ Ini LaTeX:
         verified: true
     }))
     .addPost(Array(5).fill({
-        profile_url: "https://cdn.ornzora.eu.cc/2498bf66-6870-4f8a-8421-0a77f7baa95b-FIORA.jpg",
+        profile_url: "https://api.ryuu-dev.my.id/icon.png",
         username: 'Ryuu',
         title: "Demo Post",
         subtitle: 'Ryuu',
-        caption: 'hii~ im haruka sylvie, just quietly observing things around here.',
+        caption: 'hii~ im haruka, just quietly observing things around here.',
         verified: true,
         url: 'https://api.ryuu-dev.my.id/',
-        thumbnail: 'https://cdn.ornzora.eu.cc/7048efb4-2abf-4081-bdd1-2f65972d793a-FIORA.jpg',
+        thumbnail: 'https://api.ryuu-dev.offc.my.id/src/assest/mahiru/Mahiru-7.jpg',
         source: 'INSTAGRAM',
-        footer: 'Fiora Sylvie',
+        footer: 'Haruka',
         deeplink: 'https://api.ryuu-dev.my.id/',
-        icon: "https://cdn.ornzora.eu.cc/2498bf66-6870-4f8a-8421-0a77f7baa95b-FIORA.jpg",
+        icon: "https://api.ryuu-dev.my.id/icon.png",
         orientation: 'LANDSCAPE',
         post_type: 'PHOTO',
         comment: 1,
