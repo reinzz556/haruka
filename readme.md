@@ -1,7 +1,6 @@
 # Message Builder Helper
 
-**Special thanks to [Nixel](https://wa.me/6282139672290)**
-The original owner of this message builder
+**Special thanks to [Nixel](https://wa.me/6282139672290)**. The original owner of this message builder
 
 Sebuah helper berbasis **Dynamic Proxy** untuk mempermudah pembuatan dan pengiriman berbagai jenis pesan interaktif (Rich Messages) pada bot WhatsApp (seperti Baileys/Socket). 
 
@@ -28,7 +27,7 @@ Fungsi utama untuk menginisialisasi builder.
 
 ### Inisiasi
 Inisiasi semua fungsi atau class dari library
-``` javascript
+```javascript
 import { Button, ButtonV2, Carousel, AIRich } from "@ryuu-reinzz/haruka-lib"
 ```
 
