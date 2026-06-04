@@ -143,7 +143,7 @@ Ini LaTeX:
 }`)
    .addText('HScroll Product (Array of Object Input):') 
    .addProduct(Array(5).fill({
-		title: namebot, 
+		title: global.namabot, 
 		brand: 'Ryuu', 
 		price: 'Rp 1000', 
 		sale_price: 'Rp 0', 
@@ -164,7 +164,7 @@ Ini LaTeX:
     .addVideo("https://api.ryuu-dev.my.id/2026-06-01-064748592.mp4|10")
     .addReels(Array(5).fill({
         username: 'Ryuu',
-        profile_url: 'https://api.ryuu-dev.my.id/icon.png',
+        profile_url: 'https://api.ryuu-dev.my.id/logo.png',
         thumbnail: 'https://api.ryuu-dev.offc.my.id/src/assest/mahiru/Mahiru-08.jpg',
         url: 'https://api.ryuu-dev.my.id/',
         title: 'Demo Reel',
@@ -175,7 +175,7 @@ Ini LaTeX:
         verified: true
     }))
     .addPost(Array(5).fill({
-        profile_url: "https://api.ryuu-dev.my.id/icon.png",
+        profile_url: "https://api.ryuu-dev.my.id/logo.png",
         username: 'Ryuu',
         title: "Demo Post",
         subtitle: 'Ryuu',
@@ -186,7 +186,7 @@ Ini LaTeX:
         source: 'INSTAGRAM',
         footer: 'Haruka',
         deeplink: 'https://api.ryuu-dev.my.id/',
-        icon: "https://api.ryuu-dev.my.id/icon.png",
+        icon: "https://api.ryuu-dev.my.id/logo.png",
         orientation: 'LANDSCAPE',
         post_type: 'PHOTO',
         comment: 1,
