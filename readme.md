@@ -37,7 +37,7 @@ Fungsi utama untuk menginisialisasi builder.
 
 Berikut adalah cara menggunakan `messageBuilder` untuk menggantikan inisialisasi *class* manual:
 
-### 1. Membuat Pesan Interaktif Lama (`Button`)
+### 1. Membuat Pesan Interaktif (`Button`)
 ```javascript
 await messageBuilder(m.chat, { quoted: m })
     .setType('Button')
@@ -49,7 +49,7 @@ await messageBuilder(m.chat, { quoted: m })
     .addReply('📦 Menu', '.menu', { icon: 'DEFAULT' })
     .addReply('👤 Profile', '.profile', { icon: 'REVIEW' })
     .addUrl('🌐 Website', 'https://example.com', true, { icon: 'PROMOTION' })
-    .addCopy('📋 Copy Code', 'NIX-2026', { icon: 'DOCUMENT' })
+    .addCopy('📋 Copy Code', 'RYUU-2026', { icon: 'DOCUMENT' })
     .addSelection('📚 Pilih Kategori')
     .makeSection('Main Menu')
     .makeRow('🔥 HOT', 'Downloader', 'Download social media', '.dl')
@@ -57,7 +57,7 @@ await messageBuilder(m.chat, { quoted: m })
     .send();
 ```
 
-### 2. Membuat Pesan Tombol Baru (`ButtonV2`)
+### 2. Membuat Pesan Tombol (`ButtonV2`)
 ```javascript
 await messageBuilder(m.chat)
     .setType('ButtonV2')
