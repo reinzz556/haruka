@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "profiles": {
+    "A7KQ2M9X4P8L6T3Z1R5N": {
+      "accountId": "A7KQ2M9X4P8L6T3Z1R5N",
+      "avatar": null,
+      "banner": null,
+      "purchasedSlots": 0,
+      "createdAt": "2026-09-19T11:06:51.157Z",
+      "updatedAt": "2026-09-19T11:06:51.157Z"
+    }
+  },
+  "quota": {
+    "admins": {},
+    "users": {}
+  },
+  "replaceHistory": [],
+  "payments": {},
+  "audit": [],
+  "meta": {
+    "lastSyncAt": null,
+    "lastCommitSha": null
+  }
+}
