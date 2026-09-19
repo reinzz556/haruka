@@ -18,6 +18,20 @@
   "payments": {},
   "audit": [
     {
+      "id": "1f1dcd84327cc657",
+      "timestamp": "2026-09-19T11:25:22.045Z",
+      "actorEmail": "faldrian311@gmail.com",
+      "actorRole": "OWNER",
+      "action": "update_profile",
+      "target": "A7KQ2M9X4P8L6T3Z1R5N",
+      "result": "success",
+      "metadata": {
+        "fields": [
+          "avatar"
+        ]
+      }
+    },
+    {
       "id": "77e3b73b5ef63703",
       "timestamp": "2026-09-19T11:14:05.976Z",
       "actorEmail": "faldrian311@gmail.com",
@@ -47,7 +61,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-09-19T11:14:05.976Z",
+    "lastSyncAt": "2026-09-19T11:25:22.045Z",
     "lastCommitSha": null
   }
 }
