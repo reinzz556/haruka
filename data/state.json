@@ -18,6 +18,19 @@
   "payments": {},
   "audit": [
     {
+      "id": "471ffc67ee5cd565",
+      "timestamp": "2026-09-19T13:03:40.856Z",
+      "actorEmail": "faldrian311@gmail.com",
+      "actorRole": "OWNER",
+      "action": "update_profile_picture",
+      "target": "A7KQ2M9X4P8L6T3Z1R5N",
+      "result": "success",
+      "metadata": {
+        "url": "/uploads/avatars/A7KQ2M9X4P8L6T3Z1R5N-8853a69d4aa0.webp",
+        "bytes": 140094
+      }
+    },
+    {
       "id": "5e78529ceba0a6ed",
       "timestamp": "2026-09-19T12:47:42.436Z",
       "actorEmail": "faldrian311@gmail.com",
@@ -115,7 +128,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-09-19T12:47:42.436Z",
+    "lastSyncAt": "2026-09-19T13:03:40.856Z",
     "lastCommitSha": null
   }
 }
