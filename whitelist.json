@@ -1,177 +1,299 @@
 [
-  {
-    "number": "6288704756515",
-    "owner": "RyuuReinzz",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "6285185072682",
-    "owner": "yanzz",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "6285215249609",
-    "owner": "Shoyu",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "6282163981775",
-    "owner": "Shoyu",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "628884770830",
-    "owner": "Zahra",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "6287717461502",
-    "owner": "Pendekar",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "6283878107393",
-    "owner": "Lionel",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "6283168041870",
-    "owner": "p",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "6285810788871",
-    "owner": "tnz",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "6285974152524",
-    "owner": "tnz",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "6289662638150",
-    "owner": "tnz",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "6285771150772",
-    "owner": "Chandra",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "6285848709044",
-    "owner": "Zee",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "6285142915639",
-    "owner": "Radit",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "6285124530657",
-    "owner": "dik",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "6285185597796",
-    "owner": "piere",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "6285693545240",
-    "owner": "Khrisna",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "6285187743988",
-    "owner": "Kumaa",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "62882005955233",
-    "owner": "memey",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "6282284868113",
-    "owner": "zyyy",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "6283163750627",
-    "owner": "ezystore",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "6288246841034",
-    "owner": "Ryuu",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "62887436696265",
-    "owner": "dz",
-    "owner_admin_id": "wiranto1107@gmail.com"
-  },
-  {
-    "number": "6285177182456",
-    "owner": "Katzy",
-    "owner_admin_id": "wiranto1107@gmail.com"
-  },
-  {
-    "number": "6285133834060",
-    "owner": "Ian",
-    "owner_admin_id": "wiranto1107@gmail.com"
-  },
-  {
-    "number": "628216712281",
-    "owner": "Vincent",
-    "owner_admin_id": "wiranto1107@gmail.com"
-  },
-  {
-    "number": "6285119959797",
-    "owner": "wti",
-    "owner_admin_id": "wiranto1107@gmail.com"
-  },
-  {
-    "number": "6285147136551",
-    "owner": "dika",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "6285119101595",
-    "owner": "mobiusmm",
-    "owner_admin_id": "wiranto1107@gmail.com"
-  },
-  {
-    "number": "6283167387875",
-    "owner": "gakuto",
-    "owner_admin_id": "wiranto1107@gmail.com"
-  },
-  {
-    "number": "6285893105626",
-    "owner": "Zhumi",
-    "owner_admin_id": "wiranto1107@gmail.com"
-  },
-  {
-    "number": "62882006675222",
-    "owner": "apss",
-    "owner_admin_id": "wiranto1107@gmail.com"
-  },
-  {
-    "number": "628212820959",
-    "owner": "owner",
-    "owner_admin_id": "faldrian311@gmail.com"
-  },
-  {
-    "number": "6285211283038",
-    "owner": "ian",
-    "owner_admin_id": "wiranto1107@gmail.com"
-  },
-  {
-    "number": "6287763409528",
-    "owner": "deu×astr",
-    "owner_admin_id": "faldrian311@gmail.com"
-  }
+    {
+        "number": "6288704756515",
+        "owner": "RyuuReinzz",
+        "manager": "faldrian311@gmail.com",
+        "account": {
+            "username": "ryuureinzz",
+            "id": "A7KQ2M9X4P8L6T3Z1R5N",
+            "email": "faldrian311@gmail.com",
+            "status": "complete"
+        }
+    },
+    {
+        "number": "6285185072682",
+        "owner": "yanzz",
+        "manager": "faldrian311@gmail.com",
+        "account": {
+            "username": "yanzz",
+            "id": "H4N8Q2W7K5M1Z9P3R6TX",
+            "email": "yannnaspad@gmail.com",
+            "status": "complete"
+        }
+    },
+    {
+        "number": "6285215249609",
+        "owner": "Shoyu",
+        "manager": "faldrian311@gmail.com",
+        "account": {
+            "username": "shoyu",
+            "id": "P6X2R9K4M7T1Q8N5Z3HW",
+            "email": "-",
+            "status": "pending"
+        }
+    },
+    {
+        "number": "6282163981775",
+        "owner": "Shoyu",
+        "manager": "faldrian311@gmail.com",
+        "account": {
+            "username": "shoyu",
+            "id": "P6X2R9K4M7T1Q8N5Z3HW",
+            "email": "-",
+            "status": "pending"
+        }
+    },
+    {
+        "number": "6287717461502",
+        "owner": "Kuro",
+        "manager": "faldrian311@gmail.com",
+        "account": {
+            "username": "pendekar",
+            "id": "T3H7M9Q2X6K4R1N8W5ZP",
+            "email": "luknpcil13@gmail.com",
+            "status": "complete"
+        }
+    },
+    {
+        "number": "6283168041870",
+        "owner": "p",
+        "manager": "faldrian311@gmail.com",
+        "account": {
+            "username": "p",
+            "id": "Q6X9M3T8K2R5N1H7W4ZP",
+            "email": "-",
+            "status": "pending"
+        }
+    },
+    {
+        "number": "6285974152524",
+        "owner": "tnz",
+        "manager": "faldrian311@gmail.com",
+        "account": {
+            "username": "tnz",
+            "id": "X4N8T2Q7M5R1K9H3W6ZP",
+            "email": "akuenstock80@gmail.com",
+            "status": "complete"
+        }
+    },
+    {
+        "number": "6285771150772",
+        "owner": "Chandra",
+        "manager": "faldrian311@gmail.com",
+        "account": {
+            "username": "chandra",
+            "id": "P9T3R7K1X5M8Q2N6H4ZW",
+            "email": "-",
+            "status": "pending"
+        }
+    },
+    {
+        "number": "6285848709044",
+        "owner": "Zee",
+        "manager": "faldrian311@gmail.com",
+        "account": {
+            "username": "zee",
+            "id": "K5Q8N2X7M4T1R9P6H3ZW",
+            "email": "zeeyganzz821@gmail.com",
+            "status": "complete"
+        }
+    },
+    {
+        "number": "6285124530657",
+        "owner": "dika",
+        "manager": "faldrian311@gmail.com",
+        "account": {
+            "username": "dika",
+            "id": "N4X7K2Q9M5R1T8H3P6ZW",
+            "email": "-",
+            "status": "pending"
+        }
+    },
+    {
+        "number": "6285185597796",
+        "owner": "piere",
+        "manager": "faldrian311@gmail.com",
+        "account": {
+            "username": "piere",
+            "id": "T9K3M7X1R5Q8N2H6P4ZW",
+            "email": "-",
+            "status": "pending"
+        }
+    },
+    {
+        "number": "6285187743988",
+        "owner": "Kumaa",
+        "manager": "faldrian311@gmail.com",
+        "account": {
+            "username": "kumaa",
+            "id": "M5X9T2K7R4Q1N8H3P6ZW",
+            "email": "-",
+            "status": "pending"
+        }
+    },
+    {
+        "number": "6282284868113",
+        "owner": "zyyy",
+        "manager": "faldrian311@gmail.com",
+        "account": {
+            "username": "zyyy",
+            "id": "H6Q2M8X5R1K9T4N7P3ZW",
+            "email": "dimas25082011@gmail.com",
+            "status": "complete"
+        }
+    },
+    {
+        "number": "6288246841034",
+        "owner": "RyuuReinzz",
+        "manager": "faldrian311@gmail.com",
+        "account": {
+            "username": "ryuureinzz",
+            "id": "A7KQ2M9X4P8L6T3Z1R5N",
+            "email": "faldrian311@gmail.com",
+            "status": "complete"
+        }
+    },
+    {
+        "number": "62887436696265",
+        "owner": "dz",
+        "manager": "wiranto1107@gmail.com",
+        "account": {
+            "username": "mobius",
+            "id": "H9R4X2K7M5T1Q8N3P6ZW",
+            "email": "wiranto1107@gmail.com",
+            "status": "complete"
+        }
+    },
+    {
+        "number": "6285177182456",
+        "owner": "Katzy",
+        "manager": "wiranto1107@gmail.com",
+        "account": {
+            "username": "mobius",
+            "id": "H9R4X2K7M5T1Q8N3P6ZW",
+            "email": "wiranto1107@gmail.com",
+            "status": "complete"
+        }
+    },
+    {
+        "number": "6285133834060",
+        "owner": "Ian",
+        "manager": "wiranto1107@gmail.com",
+        "account": {
+            "username": "mobius",
+            "id": "H9R4X2K7M5T1Q8N3P6ZW",
+            "email": "wiranto1107@gmail.com",
+            "status": "complete"
+        }
+    },
+    {
+        "number": "628216712281",
+        "owner": "Vincent",
+        "manager": "wiranto1107@gmail.com",
+        "account": {
+            "username": "mobius",
+            "id": "H9R4X2K7M5T1Q8N3P6ZW",
+            "email": "wiranto1107@gmail.com",
+            "status": "complete"
+        }
+    },
+    {
+        "number": "6285119959797",
+        "owner": "wti",
+        "manager": "wiranto1107@gmail.com",
+        "account": {
+            "username": "mobius",
+            "id": "H9R4X2K7M5T1Q8N3P6ZW",
+            "email": "wiranto1107@gmail.com",
+            "status": "complete"
+        }
+    },
+    {
+        "number": "6285147136551",
+        "owner": "dika",
+        "manager": "faldrian311@gmail.com",
+        "account": {
+            "username": "dika",
+            "id": "N4X7K2Q9M5R1T8H3P6ZW",
+            "email": "-",
+            "status": "pending"
+        }
+    },
+    {
+        "number": "6285119101595",
+        "owner": "mobius",
+        "manager": "wiranto1107@gmail.com",
+        "account": {
+            "username": "mobius",
+            "id": "H9R4X2K7M5T1Q8N3P6ZW",
+            "email": "wiranto1107@gmail.com",
+            "status": "complete"
+        }
+    },
+    {
+        "number": "6283167387875",
+        "owner": "gakuto",
+        "manager": "wiranto1107@gmail.com",
+        "account": {
+            "username": "mobius",
+            "id": "H9R4X2K7M5T1Q8N3P6ZW",
+            "email": "wiranto1107@gmail.com",
+            "status": "complete"
+        }
+    },
+    {
+        "number": "6285893105626",
+        "owner": "Zhumi",
+        "manager": "wiranto1107@gmail.com",
+        "account": {
+            "username": "mobius",
+            "id": "H9R4X2K7M5T1Q8N3P6ZW",
+            "email": "wiranto1107@gmail.com",
+            "status": "complete"
+        }
+    },
+    {
+        "number": "62882006675222",
+        "owner": "apss",
+        "manager": "wiranto1107@gmail.com",
+        "account": {
+            "username": "mobius",
+            "id": "H9R4X2K7M5T1Q8N3P6ZW",
+            "email": "wiranto1107@gmail.com",
+            "status": "complete"
+        }
+    },
+    {
+        "number": "628212820959",
+        "owner": "owner",
+        "manager": "faldrian311@gmail.com",
+        "account": {
+            "username": "owner",
+            "id": "Q5K8R2X7M4T1N9H3P6ZW",
+            "email": "-",
+            "status": "complete"
+        }
+    },
+    {
+        "number": "6285211283038",
+        "owner": "ian",
+        "manager": "wiranto1107@gmail.com",
+        "account": {
+            "username": "mobius",
+            "id": "H9R4X2K7M5T1Q8N3P6ZW",
+            "email": "wiranto1107@gmail.com",
+            "status": "complete"
+        }
+    },
+    {
+        "number": "6287763409528",
+        "owner": "deu×astr",
+        "manager": "faldrian311@gmail.com",
+        "account": {
+            "username": "deu×astr",
+            "id": "X8K3R5M9T1Q7N2H4P6ZW",
+            "email": "-",
+            "status": "pending"
+        }
+    }
 ]
