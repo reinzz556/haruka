@@ -18,6 +18,24 @@
   "payments": {},
   "audit": [
     {
+      "id": "2adb39b38833ab3d",
+      "timestamp": "2026-09-19T12:45:51.142Z",
+      "actorEmail": "faldrian311@gmail.com",
+      "actorRole": "OWNER",
+      "action": "update_owner",
+      "target": "shoyu",
+      "result": "success",
+      "metadata": {
+        "accountId": "P6X2R9K4M7T1Q8N5Z3HW",
+        "fields": [
+          "username",
+          "email",
+          "status"
+        ],
+        "email": "elstore095@gmail.com"
+      }
+    },
+    {
       "id": "1f1dcd84327cc657",
       "timestamp": "2026-09-19T11:25:22.045Z",
       "actorEmail": "faldrian311@gmail.com",
@@ -61,7 +79,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-09-19T11:25:22.045Z",
+    "lastSyncAt": "2026-09-19T12:45:51.142Z",
     "lastCommitSha": null
   }
 }
