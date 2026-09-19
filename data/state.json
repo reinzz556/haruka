@@ -18,6 +18,24 @@
   "payments": {},
   "audit": [
     {
+      "id": "5e78529ceba0a6ed",
+      "timestamp": "2026-09-19T12:47:42.436Z",
+      "actorEmail": "faldrian311@gmail.com",
+      "actorRole": "OWNER",
+      "action": "update_owner",
+      "target": "hageestur",
+      "result": "success",
+      "metadata": {
+        "accountId": "Q6X9M3T8K2R5N1H7W4ZP",
+        "fields": [
+          "username",
+          "email",
+          "status"
+        ],
+        "email": "hageestur@gmail.com"
+      }
+    },
+    {
       "id": "61eb1458fccc40c4",
       "timestamp": "2026-09-19T12:46:30.224Z",
       "actorEmail": "faldrian311@gmail.com",
@@ -97,7 +115,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-09-19T12:46:30.224Z",
+    "lastSyncAt": "2026-09-19T12:47:42.436Z",
     "lastCommitSha": null
   }
 }
