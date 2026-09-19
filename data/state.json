@@ -18,6 +18,24 @@
   "payments": {},
   "audit": [
     {
+      "id": "61eb1458fccc40c4",
+      "timestamp": "2026-09-19T12:46:30.224Z",
+      "actorEmail": "faldrian311@gmail.com",
+      "actorRole": "OWNER",
+      "action": "update_owner",
+      "target": "dika",
+      "result": "success",
+      "metadata": {
+        "accountId": "N4X7K2Q9M5R1T8H3P6ZW",
+        "fields": [
+          "username",
+          "email",
+          "status"
+        ],
+        "email": "dikzgg0@gmail.com"
+      }
+    },
+    {
       "id": "2adb39b38833ab3d",
       "timestamp": "2026-09-19T12:45:51.142Z",
       "actorEmail": "faldrian311@gmail.com",
@@ -79,7 +97,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-09-19T12:45:51.142Z",
+    "lastSyncAt": "2026-09-19T12:46:30.224Z",
     "lastCommitSha": null
   }
 }
