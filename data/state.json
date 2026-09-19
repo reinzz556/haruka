@@ -21,6 +21,20 @@
   "payments": {},
   "audit": [
     {
+      "id": "a01429e02df5b86e",
+      "timestamp": "2026-09-19T13:04:58.517Z",
+      "actorEmail": "faldrian311@gmail.com",
+      "actorRole": "OWNER",
+      "action": "update_banner",
+      "target": "A7KQ2M9X4P8L6T3Z1R5N",
+      "result": "success",
+      "metadata": {
+        "url": "/uploads/banners/A7KQ2M9X4P8L6T3Z1R5N-18b66fe69dbe.webp",
+        "type": "image",
+        "bytes": 230628
+      }
+    },
+    {
       "id": "471ffc67ee5cd565",
       "timestamp": "2026-09-19T13:03:40.856Z",
       "actorEmail": "faldrian311@gmail.com",
@@ -131,7 +145,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-09-19T13:03:40.856Z",
+    "lastSyncAt": "2026-09-19T13:04:58.517Z",
     "lastCommitSha": null
   }
 }
