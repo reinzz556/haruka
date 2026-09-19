@@ -16,9 +16,24 @@
   },
   "replaceHistory": [],
   "payments": {},
-  "audit": [],
+  "audit": [
+    {
+      "id": "e936c771c7b916f8",
+      "timestamp": "2026-09-19T11:06:51.924Z",
+      "actorEmail": "faldrian311@gmail.com",
+      "actorRole": "OWNER",
+      "action": "update_profile",
+      "target": "A7KQ2M9X4P8L6T3Z1R5N",
+      "result": "success",
+      "metadata": {
+        "fields": [
+          "avatar"
+        ]
+      }
+    }
+  ],
   "meta": {
-    "lastSyncAt": null,
+    "lastSyncAt": "2026-09-19T11:06:51.924Z",
     "lastCommitSha": null
   }
 }
