@@ -21,6 +21,24 @@
   "payments": {},
   "audit": [
     {
+      "id": "82b531e017db9f75",
+      "timestamp": "2026-09-20T12:07:36.259Z",
+      "actorEmail": "faldrian311@gmail.com",
+      "actorRole": "OWNER",
+      "action": "update_owner",
+      "target": "kumaa",
+      "result": "success",
+      "metadata": {
+        "accountId": "M5X9T2K7R4Q1N8H3P6ZW",
+        "fields": [
+          "username",
+          "email",
+          "status"
+        ],
+        "email": "rubiariani03@gmail.com"
+      }
+    },
+    {
       "id": "a01429e02df5b86e",
       "timestamp": "2026-09-19T13:04:58.517Z",
       "actorEmail": "faldrian311@gmail.com",
@@ -145,7 +163,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-09-19T13:04:58.517Z",
+    "lastSyncAt": "2026-09-20T12:07:36.259Z",
     "lastCommitSha": null
   }
 }
