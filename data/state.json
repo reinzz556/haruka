@@ -32,7 +32,16 @@
       }
     }
   },
-  "replaceHistory": [],
+  "replaceHistory": [
+    {
+      "id": "1789922470876-b08210a4",
+      "accountId": "H9R4X2K7M5T1Q8N3P6ZW",
+      "actorEmail": "wiranto1107@gmail.com",
+      "from": "6285119101595",
+      "to": "62895326175575",
+      "at": "2026-09-20T16:41:10.876Z"
+    }
+  ],
   "payments": {},
   "audit": [
     {
@@ -306,7 +315,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-09-20T16:41:09.001Z",
+    "lastSyncAt": "2026-09-20T16:41:10.876Z",
     "lastCommitSha": null
   }
 }
