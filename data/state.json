@@ -21,6 +21,16 @@
   "payments": {},
   "audit": [
     {
+      "id": "b21ef533e95f4e39",
+      "timestamp": "2026-09-20T14:20:14.367Z",
+      "actorEmail": "faldrian311@gmail.com",
+      "actorRole": "OWNER",
+      "action": "remove_admin",
+      "target": "ryuu.reinzz@gmail.com",
+      "result": "success",
+      "metadata": null
+    },
+    {
       "id": "6a123ffdcd5c97e4",
       "timestamp": "2026-09-20T14:17:59.592Z",
       "actorEmail": "faldrian311@gmail.com",
@@ -228,7 +238,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-09-20T14:17:59.592Z",
+    "lastSyncAt": "2026-09-20T14:20:14.367Z",
     "lastCommitSha": null
   }
 }
