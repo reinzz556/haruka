@@ -21,6 +21,19 @@
   "payments": {},
   "audit": [
     {
+      "id": "a15a2aedba9efac1",
+      "timestamp": "2026-09-20T14:16:10.707Z",
+      "actorEmail": "faldrian311@gmail.com",
+      "actorRole": "OWNER",
+      "action": "delete_owner",
+      "target": "kumaa",
+      "result": "success",
+      "metadata": {
+        "accountId": "M5X9T2K7R4Q1N8H3P6ZW",
+        "numbersRemoved": 0
+      }
+    },
+    {
       "id": "2588569f659b8d29",
       "timestamp": "2026-09-20T14:15:46.107Z",
       "actorEmail": "faldrian311@gmail.com",
@@ -201,7 +214,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-09-20T14:15:46.107Z",
+    "lastSyncAt": "2026-09-20T14:16:10.707Z",
     "lastCommitSha": null
   }
 }
