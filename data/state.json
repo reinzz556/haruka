@@ -23,7 +23,14 @@
   },
   "quota": {
     "admins": {},
-    "users": {}
+    "users": {
+      "H9R4X2K7M5T1Q8N3P6ZW": {
+        "day": "2026-09-20",
+        "replaces": 1,
+        "transfers": 0,
+        "history": []
+      }
+    }
   },
   "replaceHistory": [],
   "payments": {},
@@ -299,7 +306,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-09-20T14:27:01.350Z",
+    "lastSyncAt": "2026-09-20T16:41:09.001Z",
     "lastCommitSha": null
   }
 }
