@@ -29,6 +29,21 @@
   "payments": {},
   "audit": [
     {
+      "id": "91541f6fea4c94aa",
+      "timestamp": "2026-09-20T14:21:36.661Z",
+      "actorEmail": "faldrian311@gmail.com",
+      "actorRole": "OWNER",
+      "action": "revoke_slots",
+      "target": "mobius",
+      "result": "success",
+      "metadata": {
+        "accountId": "H9R4X2K7M5T1Q8N3P6ZW",
+        "quantity": 10,
+        "action": "remove",
+        "quota": 11
+      }
+    },
+    {
       "id": "751834f475de8cd4",
       "timestamp": "2026-09-20T14:21:04.556Z",
       "actorEmail": "faldrian311@gmail.com",
@@ -271,7 +286,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-09-20T14:21:04.556Z",
+    "lastSyncAt": "2026-09-20T14:21:36.661Z",
     "lastCommitSha": null
   }
 }
