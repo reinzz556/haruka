@@ -21,6 +21,20 @@
   "payments": {},
   "audit": [
     {
+      "id": "6a123ffdcd5c97e4",
+      "timestamp": "2026-09-20T14:17:59.592Z",
+      "actorEmail": "faldrian311@gmail.com",
+      "actorRole": "OWNER",
+      "action": "grant_slots",
+      "target": "mobius",
+      "result": "success",
+      "metadata": {
+        "accountId": "H9R4X2K7M5T1Q8N3P6ZW",
+        "quantity": 11,
+        "quota": 21
+      }
+    },
+    {
       "id": "a15a2aedba9efac1",
       "timestamp": "2026-09-20T14:16:10.707Z",
       "actorEmail": "faldrian311@gmail.com",
@@ -214,7 +228,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-09-20T14:16:10.707Z",
+    "lastSyncAt": "2026-09-20T14:17:59.592Z",
     "lastCommitSha": null
   }
 }
