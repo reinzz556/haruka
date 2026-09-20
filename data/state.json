@@ -45,6 +45,24 @@
   "payments": {},
   "audit": [
     {
+      "id": "af21dc856ce6b928",
+      "timestamp": "2026-09-20T17:18:53.178Z",
+      "actorEmail": "faldrian311@gmail.com",
+      "actorRole": "OWNER",
+      "action": "update_owner",
+      "target": "deuxastr",
+      "result": "success",
+      "metadata": {
+        "accountId": "X8K3R5M9T1Q7N2H4P6ZW",
+        "fields": [
+          "username",
+          "email",
+          "status"
+        ],
+        "email": "deuapusat@gmail.com"
+      }
+    },
+    {
       "id": "fa93035e766c455f",
       "timestamp": "2026-09-20T16:41:11.522Z",
       "actorEmail": "wiranto1107@gmail.com",
@@ -327,7 +345,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-09-20T16:41:11.522Z",
+    "lastSyncAt": "2026-09-20T17:18:53.178Z",
     "lastCommitSha": null
   }
 }
