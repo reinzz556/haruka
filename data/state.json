@@ -11,6 +11,14 @@
       "purchasedSlots": 0,
       "createdAt": "2026-09-19T11:06:51.157Z",
       "updatedAt": "2026-09-19T13:04:57.984Z"
+    },
+    "WK7VCQ1LF91RK0QZXESE": {
+      "accountId": "WK7VCQ1LF91RK0QZXESE",
+      "avatar": null,
+      "banner": null,
+      "purchasedSlots": 0,
+      "createdAt": "2026-09-20T14:21:03.962Z",
+      "updatedAt": "2026-09-20T14:21:03.962Z"
     }
   },
   "quota": {
@@ -20,6 +28,19 @@
   "replaceHistory": [],
   "payments": {},
   "audit": [
+    {
+      "id": "fdd49a9c2ba12554",
+      "timestamp": "2026-09-20T14:21:03.962Z",
+      "actorEmail": "faldrian311@gmail.com",
+      "actorRole": "OWNER",
+      "action": "create_owner",
+      "target": "ryuu",
+      "result": "success",
+      "metadata": {
+        "accountId": "WK7VCQ1LF91RK0QZXESE",
+        "status": "complete"
+      }
+    },
     {
       "id": "b21ef533e95f4e39",
       "timestamp": "2026-09-20T14:20:14.367Z",
