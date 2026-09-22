@@ -284,5 +284,16 @@
             "email": "deuapusat@gmail.com",
             "status": "complete"
         }
+    },
+    {
+        "number": "6285924577333",
+        "owner": "Rijal",
+        "manager": "faldrian311@gmail.com",
+        "account": {
+            "username": "rijal",
+            "id": "UZJH1250D3KSKPV37T57",
+            "email": "storeerijal@gmail.com",
+            "status": "complete"
+        }
     }
 ]
