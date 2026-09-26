@@ -75,6 +75,18 @@
   "payments": {},
   "audit": [
     {
+      "id": "7fb71e7f99f888a8",
+      "timestamp": "2026-09-26T15:43:20.887Z",
+      "actorEmail": "wiranto1107@gmail.com",
+      "actorRole": "ADMIN",
+      "action": "replace_number",
+      "target": "62895326175575 -> 6285198287063",
+      "result": "success",
+      "metadata": {
+        "accountId": "H9R4X2K7M5T1Q8N3P6ZW"
+      }
+    },
+    {
       "id": "0c4ead5d114dd1d4",
       "timestamp": "2026-09-25T17:43:14.370Z",
       "actorEmail": "deuapusat@gmail.com",
@@ -413,7 +425,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-09-26T15:43:20.321Z",
+    "lastSyncAt": "2026-09-26T15:43:20.887Z",
     "lastCommitSha": null
   }
 }
