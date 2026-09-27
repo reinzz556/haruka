@@ -83,6 +83,19 @@
   "payments": {},
   "audit": [
     {
+      "id": "6e38c6086fe969be",
+      "timestamp": "2026-09-27T14:58:14.278Z",
+      "actorEmail": "syahram.jr@gmail.com",
+      "actorRole": "USER",
+      "action": "update_profile_picture",
+      "target": "TH2EU2MT9WC40PKGJL0T",
+      "result": "success",
+      "metadata": {
+        "url": "/uploads/avatars/TH2EU2MT9WC40PKGJL0T-fa565326f028.webp",
+        "bytes": 103521
+      }
+    },
+    {
       "id": "a164497a302031d8",
       "timestamp": "2026-09-27T14:53:07.072Z",
       "actorEmail": "faldrian311@gmail.com",
@@ -447,7 +460,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-09-27T14:53:07.072Z",
+    "lastSyncAt": "2026-09-27T14:58:14.278Z",
     "lastCommitSha": null
   }
 }
