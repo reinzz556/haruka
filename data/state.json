@@ -75,6 +75,20 @@
   "payments": {},
   "audit": [
     {
+      "id": "a164497a302031d8",
+      "timestamp": "2026-09-27T14:53:07.072Z",
+      "actorEmail": "faldrian311@gmail.com",
+      "actorRole": "OWNER",
+      "action": "add_number",
+      "target": "6285137595314",
+      "result": "success",
+      "metadata": {
+        "accountId": "TH2EU2MT9WC40PKGJL0T",
+        "accountCreated": true,
+        "manager": "faldrian311@gmail.com"
+      }
+    },
+    {
       "id": "7fb71e7f99f888a8",
       "timestamp": "2026-09-26T15:43:20.887Z",
       "actorEmail": "wiranto1107@gmail.com",
@@ -425,7 +439,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-09-26T15:43:20.887Z",
+    "lastSyncAt": "2026-09-27T14:53:07.072Z",
     "lastCommitSha": null
   }
 }
