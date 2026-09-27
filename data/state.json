@@ -23,10 +23,13 @@
     "TH2EU2MT9WC40PKGJL0T": {
       "accountId": "TH2EU2MT9WC40PKGJL0T",
       "avatar": "/uploads/avatars/TH2EU2MT9WC40PKGJL0T-fa565326f028.webp",
-      "banner": null,
+      "banner": {
+        "type": "image",
+        "url": "/uploads/banners/TH2EU2MT9WC40PKGJL0T-9b30c8bc51c4.webp"
+      },
       "purchasedSlots": 0,
       "createdAt": "2026-09-27T14:58:13.686Z",
-      "updatedAt": "2026-09-27T14:58:13.686Z"
+      "updatedAt": "2026-09-27T14:58:27.833Z"
     }
   },
   "quota": {
