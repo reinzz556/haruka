@@ -109,6 +109,21 @@
   "payments": {},
   "audit": [
     {
+      "id": "241cb5e5d36eb0d3",
+      "timestamp": "2026-10-09T08:31:18.747Z",
+      "actorEmail": "wiranto1107@gmail.com",
+      "actorRole": "ADMIN",
+      "action": "update_number",
+      "target": "6282318708466",
+      "result": "success",
+      "metadata": {
+        "fields": [
+          "number",
+          "owner"
+        ]
+      }
+    },
+    {
       "id": "6a28d512e6e04e84",
       "timestamp": "2026-10-06T03:21:23.353Z",
       "actorEmail": "wiranto1107@gmail.com",
@@ -538,7 +553,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-10-09T08:31:16.837Z",
+    "lastSyncAt": "2026-10-09T08:31:18.747Z",
     "lastCommitSha": null
   }
 }
