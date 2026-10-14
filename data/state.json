@@ -109,6 +109,21 @@
   "payments": {},
   "audit": [
     {
+      "id": "7bb1a391986fa84d",
+      "timestamp": "2026-10-14T17:01:25.321Z",
+      "actorEmail": "faldrian311@gmail.com",
+      "actorRole": "OWNER",
+      "action": "grant_slots",
+      "target": "deuxastr",
+      "result": "success",
+      "metadata": {
+        "accountId": "X8K3R5M9T1Q7N2H4P6ZW",
+        "quantity": 3,
+        "action": "add",
+        "quota": 4
+      }
+    },
+    {
       "id": "efe3e6bab7ba8aae",
       "timestamp": "2026-10-10T13:21:35.288Z",
       "actorEmail": "faldrian311@gmail.com",
@@ -565,7 +580,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-10-10T13:21:35.288Z",
+    "lastSyncAt": "2026-10-14T17:01:25.321Z",
     "lastCommitSha": null
   }
 }
