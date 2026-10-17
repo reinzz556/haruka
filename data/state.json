@@ -109,6 +109,18 @@
   "payments": {},
   "audit": [
     {
+      "id": "94d04020114aeb25",
+      "timestamp": "2026-10-17T22:46:03.431Z",
+      "actorEmail": "faldrian311@gmail.com",
+      "actorRole": "OWNER",
+      "action": "remove_number",
+      "target": "6283140461073",
+      "result": "success",
+      "metadata": {
+        "accountId": "X8K3R5M9T1Q7N2H4P6ZW"
+      }
+    },
+    {
       "id": "0e4093d7817676e3",
       "timestamp": "2026-10-17T13:04:35.634Z",
       "actorEmail": "faldrian311@gmail.com",
@@ -673,7 +685,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-10-17T13:04:35.634Z",
+    "lastSyncAt": "2026-10-17T22:46:03.431Z",
     "lastCommitSha": null
   },
   "licenseDevices": {
