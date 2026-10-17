@@ -109,6 +109,19 @@
   "payments": {},
   "audit": [
     {
+      "id": "81497a29bc211c6c",
+      "timestamp": "2026-10-17T12:41:05.105Z",
+      "actorEmail": "bot",
+      "actorRole": "SYSTEM",
+      "action": "license.rebind",
+      "target": "6281529673931",
+      "result": "success",
+      "metadata": {
+        "device": "3e59127f93b34a1f",
+        "reason": "device-changed"
+      }
+    },
+    {
       "id": "ef4fd43e6d5a6d35",
       "timestamp": "2026-10-17T12:34:27.317Z",
       "actorEmail": "bot",
@@ -646,7 +659,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-10-17T12:34:27.318Z",
+    "lastSyncAt": "2026-10-17T12:41:05.105Z",
     "lastCommitSha": null
   },
   "licenseDevices": {
@@ -661,8 +674,8 @@
       "accountId": null
     },
     "6281529673931": {
-      "d": "163eb951e3094c4eb19447c7b4439d0240f6c3263b25b26e25fd872d440fe164",
-      "at": "2026-10-17T12:34:27.317Z",
+      "d": "3e59127f93b34a1fc9ca2440726657da9d2537375944a5254a7d4283a5534c77",
+      "at": "2026-10-17T12:41:05.105Z",
       "accountId": null
     }
   }
