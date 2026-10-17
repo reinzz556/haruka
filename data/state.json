@@ -109,6 +109,19 @@
   "payments": {},
   "audit": [
     {
+      "id": "ef4fd43e6d5a6d35",
+      "timestamp": "2026-10-17T12:34:27.317Z",
+      "actorEmail": "bot",
+      "actorRole": "SYSTEM",
+      "action": "license.bind",
+      "target": "6281529673931",
+      "result": "success",
+      "metadata": {
+        "device": "163eb951e3094c4e",
+        "reason": "first-claim"
+      }
+    },
+    {
       "id": "e08859b8484b5b8a",
       "timestamp": "2026-10-17T12:28:21.669Z",
       "actorEmail": "faldrian311@gmail.com",
@@ -633,7 +646,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-10-17T12:28:21.669Z",
+    "lastSyncAt": "2026-10-17T12:34:27.318Z",
     "lastCommitSha": null
   },
   "licenseDevices": {
@@ -645,6 +658,11 @@
     "6285185072682": {
       "d": "d24618c3bf77995e546295e0b9080d0afa89556e7633f9925e91ab127795104b",
       "at": "2026-10-16T23:57:54.880Z",
+      "accountId": null
+    },
+    "6281529673931": {
+      "d": "163eb951e3094c4eb19447c7b4439d0240f6c3263b25b26e25fd872d440fe164",
+      "at": "2026-10-17T12:34:27.317Z",
       "accountId": null
     }
   }
