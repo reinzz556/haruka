@@ -123,6 +123,19 @@
   "payments": {},
   "audit": [
     {
+      "id": "edb88029030f9fe4",
+      "timestamp": "2026-11-18T17:31:54.133Z",
+      "actorEmail": "bot",
+      "actorRole": "SYSTEM",
+      "action": "license.bind",
+      "target": "62881025563110",
+      "result": "success",
+      "metadata": {
+        "device": "9dcc0a69a0d23b73",
+        "reason": "first-claim"
+      }
+    },
+    {
       "id": "35fc7813a2008936",
       "timestamp": "2026-11-18T17:31:30.158Z",
       "actorEmail": "dikzgg0@gmail.com",
@@ -763,7 +776,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-11-18T17:31:30.158Z",
+    "lastSyncAt": "2026-11-18T17:31:54.133Z",
     "lastCommitSha": null
   },
   "licenseDevices": {
@@ -785,6 +798,11 @@
     "6285124530657": {
       "d": "9dcc0a69a0d23b73f30b220f5473f5b81a6a0e28165c0a0664ef038a1ae17cce",
       "at": "2026-11-06T12:14:46.027Z",
+      "accountId": null
+    },
+    "62881025563110": {
+      "d": "9dcc0a69a0d23b73f30b220f5473f5b81a6a0e28165c0a0664ef038a1ae17cce",
+      "at": "2026-11-18T17:31:54.132Z",
       "accountId": null
     }
   }
