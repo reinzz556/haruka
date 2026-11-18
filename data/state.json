@@ -64,6 +64,14 @@
   },
   "replaceHistory": [
     {
+      "id": "1795023089325-35cc38b3",
+      "accountId": "N4X7K2Q9M5R1T8H3P6ZW",
+      "actorEmail": "dikzgg0@gmail.com",
+      "from": "6285124530657",
+      "to": "62881025563110",
+      "at": "2026-11-18T17:31:29.325Z"
+    },
+    {
       "id": "1791256882253-2bb84445",
       "accountId": "H9R4X2K7M5T1Q8N3P6ZW",
       "actorEmail": "wiranto1107@gmail.com",
@@ -743,7 +751,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-11-18T17:31:27.071Z",
+    "lastSyncAt": "2026-11-18T17:31:29.325Z",
     "lastCommitSha": null
   },
   "licenseDevices": {
