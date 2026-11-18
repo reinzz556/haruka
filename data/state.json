@@ -53,6 +53,12 @@
         "replaces": 1,
         "transfers": 0,
         "history": []
+      },
+      "N4X7K2Q9M5R1T8H3P6ZW": {
+        "day": "2026-11-19",
+        "replaces": 1,
+        "transfers": 0,
+        "history": []
       }
     }
   },
@@ -737,7 +743,7 @@
     }
   ],
   "meta": {
-    "lastSyncAt": "2026-11-06T12:14:46.030Z",
+    "lastSyncAt": "2026-11-18T17:31:27.071Z",
     "lastCommitSha": null
   },
   "licenseDevices": {
